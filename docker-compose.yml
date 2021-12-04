@@ -1,0 +1,8 @@
+version: '3.7'
+services:
+  madr:
+    build: .
+    user: ${UID_GID}
+    volumes:
+      - .:/src
+
